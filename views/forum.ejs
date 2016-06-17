@@ -1,0 +1,53 @@
+<html>
+<head>
+  <title>Test Project Forum</title>
+  <style>
+ul {
+    list-style-type: none;;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;;;
+    padding: 14px 16px;
+    text-decoration: underline;;
+}
+
+a:hover:not(.active) {
+    background-color: #333;
+}
+
+.active {
+background-color:#4CAF50;
+}
+</style>
+</ul>
+<p align=center>You are now on the Forum page. </p>
+
+<iframe id="forum_embed"
+  src="javascript:void(0)"
+  scrolling="no"
+  allowtransparency="false"
+  style="background-color: white;"
+  frameborder="0"
+  width="80%"
+  height="800">
+</iframe>
+
+<script type="text/javascript">
+  document.getElementById('forum_embed').src =
+     'https://groups.google.com/forum/embed/?place=forum/tustin-wargaming'
+     + '&showsearch=true&showpopout=true&showtabs=false'
+     + '&parenturl=' + encodeURIComponent(window.location.href);
+</script>
+</body>
+</html>

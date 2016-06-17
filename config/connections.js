@@ -22,14 +22,14 @@
 module.exports.connections = {
 
 
- someMysqlServer: {
-   adapter: 'sails-mysql',
-   host: 'localhost',
-   port: 3306,
-   user: 'adam', //optional
-   password: 'Tiersis*1', //optional
+ //someMysqlServer: {
+ //  adapter: 'sails-mysql',
+ //  host: 'localhost',
+ //  port: 3306,
+ //  user: 'adam', //optional
+ // password: 'Tiersis*1', //optional
 //   database: 'YOUR_MYSQL_DB' //optional
-   }
+//   }
 
   /***************************************************************************
   *                                                                          *
@@ -72,4 +72,4 @@ module.exports.connections = {
   *                                                                          *
   ***************************************************************************/
 
-};
+ };

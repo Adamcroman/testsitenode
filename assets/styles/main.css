@@ -1,0 +1,30 @@
+body {
+    background-image: url("/images/background.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.responsiveCal,#forum_embed {
+ 
+position: relative;  height: 0; overflow: hidden;
+ 
+}
+ 
+.responsiveCal iframe {
+ 
+position: absolute; top:0; left: 10%; width: 80%; height: 80%;
+ 
+}
+
+iframe#forum_embed {
+
+position: absolute; left: 10%; width: 80%; height: 65%;
+
+}
+
+#forum_embed {
+
+background-color:white;
+
+}
